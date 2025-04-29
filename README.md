@@ -1,22 +1,53 @@
-#Federated Learning Models
+# Federated Learning Models
 
-  This repository contains a collection of Federated Learning (FL) implementations developed to deepen understanding of the methodology, explore its challenges, and identify opportunities for research and real-world applications.
+A collection of Federated Learning (FL) implementations developed to explore the core concepts, challenges, and opportunities of decentralized machine learning.
 
-#Overview
-  Federated Learning is a decentralized machine learning approach where multiple clients collaboratively train a model without sharing raw data. This paradigm is essential for applications where data privacy, communication efficiency, and heterogeneous environments are major concerns.
-  In this project, I have implemented and experimented with multiple FL strategies, including:
-  -FedAvg (Federated Averaging)
-  -FedBuff (Buffered Asynchronous Federated Learning)
-  Each implementation is designed to help analyze:
-  -Client communication delays
-  -Impact of asynchronous updates
-  -Behavior under non-IID data distribution
-  -Buffer management strategies
-  -Model convergence and accuracy in distributed scenarios
+## Table of Contents
 
-#Features
-  -Modular and extensible codebase using PyTorch
-  -Simulation of per-client communication delays (mean & std definable)
-  -Dynamic buffer-based aggregation (FedBuff-style)
-  -Support for non-IID data partitioning (Dirichlet distribution)
-  -Visualization of training performance (loss & accuracy)
+- [Overview](#overview)  
+- [Implemented Algorithms](#implemented-algorithms)  
+- [Key Features](#key-features)  
+- [Getting Started](#getting-started)  
+- [Usage Example](#usage-example)  
+- [Motivation](#motivation)  
+- [License](#license)
+
+---
+
+## Overview
+
+Federated Learning allows multiple clients to collaboratively train a machine learning model without sharing their local data. This approach enhances data privacy and is especially useful in real-world applications involving sensitive information and distributed sources.
+
+This repository serves as a sandbox for experimenting with FL approaches and understanding their performance in asynchronous and non-IID environments.
+
+---
+
+## Implemented Algorithms
+
+- **FedAvg** – Federated Averaging  
+- **FedBuff** – Buffered Asynchronous Federated Learning  
+- *(More algorithms coming soon)*
+
+---
+
+## Key Features
+
+- Simulates **asynchronous updates** with per-client communication delays  
+- Allows **customizable delay distributions** (mean & std for each client)  
+- Non-IID data partitioning using **Dirichlet distribution**  
+- Modular structure built with PyTorch  
+- **Buffer-based aggregation** strategies  
+- Accuracy & loss tracking with visualization  
+
+---
+
+## Getting Started
+
+### Requirements
+
+- Python 3.7+
+- PyTorch
+- torchvision
+- numpy
+- matplotlib
+
