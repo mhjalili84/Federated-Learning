@@ -30,17 +30,6 @@ This repository serves as a sandbox for experimenting with FL approaches and und
 
 ---
 
-## Key Features
-
-- Simulates **asynchronous updates** with per-client communication delays  
-- Allows **customizable delay distributions** (mean & std for each client)  
-- Non-IID data partitioning using **Dirichlet distribution**  
-- Modular structure built with PyTorch  
-- **Buffer-based aggregation** strategies  
-- Accuracy & loss tracking with visualization  
-
----
-
 ## Getting Started
 
 ### Requirements
