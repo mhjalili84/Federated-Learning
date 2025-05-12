@@ -26,7 +26,7 @@ This repository serves as a sandbox for experimenting with FL approaches and und
 
 - **FedAvg** – Federated Averaging  
 - **FedBuff** – Buffered Asynchronous Federated Learning  
-- *(More algorithms coming soon)*
+- **FD** - Federated Distillation
 
 ---
 
